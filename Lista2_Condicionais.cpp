@@ -96,7 +96,29 @@ int main(){
 	}
 	*/
 	//Questão 7
-	
+	  float nivel;
+    int chuva;
+    puts ("Informe o nível de água (em metros)");
+    scanf("%f", &nivel);
+    if (nivel <15) {
+    printf("Nível normal");}
+    else if((nivel>=15)&&(nivel<20)){
+    printf("Estado de Alerta");
+    }else{
+    puts("Informe se está chovendo");
+    puts("1- Sim");
+    puts("2- Não");
+    scanf("%d",&chuva);
+    switch(chuva){
+    case 1:
+    puts("EVACUAÇÃO IMEDIATA");
+    break;
+    case 2:
+    puts ("Monitoramento Crítico");
+    break;}}
+
+//Questão 8
+
 	
 	return 0;
 }
