@@ -117,7 +117,21 @@ int main(){
     puts ("Monitoramento Crítico");
     break;}}
 
-//Questão 8
+  // Questão 8
+    float dureza, peso;
+    puts("Informe o índice de dureza");
+    scanf("%f",&dureza);
+    if (dureza<50){
+    puts("Aço de baixa resistência");
+    }else if ((dureza>=50)&&(dureza<100)){
+    puts("Informe o peso da peça(em kg)");
+    scanf("%f",&peso);
+    if(peso>10){
+    puts("Uso industrial pesado");}
+    else {
+    puts("Uso em ferramentas");}}
+    else {
+    puts("Aço especial/Blindagem");}
 
 	
 	return 0;
