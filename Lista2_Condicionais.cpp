@@ -149,6 +149,18 @@ int main(){
     puts("liberado para embarque");}}
     else{
     puts("Informe uma opção válida");}
+
+// Questão 10
+    float imc,peso,altura;
+    puts("Informe o peso (em kg) e a altura(em cm):");
+    scanf("%f %f",&peso,&altura);
+    imc = peso/(altura*altura);
+    if (imc<18.5){
+    puts("Abaixo do peso");}
+    else if ((imc>=18.5)&&(imc<24.9)){
+    puts("Peso normal");}
+    else {
+    if }
 	
 	return 0;
 }
