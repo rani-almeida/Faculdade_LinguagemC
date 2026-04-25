@@ -96,71 +96,78 @@ int main(){
 	}
 	*/
 	//Questão 7
-	  float nivel;
+	/*float nivel;
     int chuva;
     puts ("Informe o nível de água (em metros)");
     scanf("%f", &nivel);
     if (nivel <15) {
-    printf("Nível normal");}
+    	printf("Nível normal");}
     else if((nivel>=15)&&(nivel<20)){
-    printf("Estado de Alerta");
+    	printf("Estado de Alerta");
     }else{
-    puts("Informe se está chovendo");
-    puts("1- Sim");
-    puts("2- Não");
-    scanf("%d",&chuva);
-    switch(chuva){
-    case 1:
-    puts("EVACUAÇÃO IMEDIATA");
-    break;
-    case 2:
-    puts ("Monitoramento Crítico");
-    break;}}
-
-  // Questão 8
-    float dureza, peso;
+    	puts("Informe se está chovendo");
+    	puts("1- Sim");
+    	puts("2- Não");
+    	scanf("%d",&chuva);
+    	switch(chuva){
+    		case 1:
+    			puts("EVACUAÇÃO IMEDIATA");
+    			break;
+    		case 2:
+    			puts ("Monitoramento Crítico");
+   				break;}}
+   	*/
+   	// Questão 8
+    /*float dureza, peso;
     puts("Informe o índice de dureza");
     scanf("%f",&dureza);
     if (dureza<50){
-    puts("Aço de baixa resistência");
+    	puts("Aço de baixa resistência");
     }else if ((dureza>=50)&&(dureza<100)){
-    puts("Informe o peso da peça(em kg)");
-    scanf("%f",&peso);
-    if(peso>10){
-    puts("Uso industrial pesado");}
+    	puts("Informe o peso da peça(em kg)");
+    	scanf("%f",&peso);
+    	if(peso>10){
+    		puts("Uso industrial pesado");}
+    	else {
+    		puts("Uso em ferramentas");}}
     else {
-    puts("Uso em ferramentas");}}
-    else {
-    puts("Aço especial/Blindagem");}
+    	puts("Aço especial/Blindagem");}
+    */
     // Questão 9
-    int pais,codigo;
+    /*int pais,codigo;
     puts("-- Informe o Destino --");
     puts("1- EUA");
     puts("2- Outros");
     scanf("%d",&pais);
     if (pais==1){
-    puts("Encaminhar para inspeção");}
+    	puts("Encaminhar para inspeção");}
     else if(pais==2){
-    puts("Informe o código do item");
-    scanf("%d",&codigo);
-    if((codigo==3)||(codigo==7)){
-    puts("encaminhar para inspeção (item restrito)");}
-    else{
-    puts("liberado para embarque");}}
+    	puts("Informe o código do item");
+    	scanf("%d",&codigo);
+    	if((codigo==3)||(codigo==7)){
+    		puts("encaminhar para inspeção (item restrito)");}
+    	else{
+    		puts("liberado para embarque");}}
     else{
     puts("Informe uma opção válida");}
-
-// Questão 10
-    float imc,peso,altura;
-    puts("Informe o peso (em kg) e a altura(em cm):");
+    */
+    //Questão 10
+    /*float imc,peso,altura;
+    puts("Informe o peso (em kg) e a altura(em m):");
     scanf("%f %f",&peso,&altura);
     imc = peso/(altura*altura);
     if (imc<18.5){
-    puts("Abaixo do peso");}
+    	puts("Abaixo do peso");}
     else if ((imc>=18.5)&&(imc<24.9)){
-    puts("Peso normal");}
+    	puts("Peso normal");}
     else {
-    if }
+    	if(imc<30){
+    		puts("Sobrepeso");
+		}
+		else{
+			puts("Obesidade");
+		} }
+	*/
 	
 	return 0;
 }
