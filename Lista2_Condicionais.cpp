@@ -132,7 +132,23 @@ int main(){
     puts("Uso em ferramentas");}}
     else {
     puts("Aço especial/Blindagem");}
-
+    // Questão 9
+    int pais,codigo;
+    puts("-- Informe o Destino --");
+    puts("1- EUA");
+    puts("2- Outros");
+    scanf("%d",&pais);
+    if (pais==1){
+    puts("Encaminhar para inspeção");}
+    else if(pais==2){
+    puts("Informe o código do item");
+    scanf("%d",&codigo);
+    if((codigo==3)||(codigo==7)){
+    puts("encaminhar para inspeção (item restrito)");}
+    else{
+    puts("liberado para embarque");}}
+    else{
+    puts("Informe uma opção válida");}
 	
 	return 0;
 }
